@@ -1,4 +1,5 @@
-#call me with
+#source: https://developer.atlassian.com/blog/2016/02/best-way-to-store-dotfiles-git-bare-repo/
+#call me with:
 #curl -Lks https://raw.githubusercontent.com/hyun007/random_scripts/master/dotfile_setup.sh | /bin/bash
 git clone --bare git@github.com:hyun007/dotfiles.git $HOME/.cfg
 function config {
