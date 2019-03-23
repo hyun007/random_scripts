@@ -1,4 +1,4 @@
-git clone --bare https://github.com/hyun007/dotfiles.git $HOME/.cfg
+git clone --bare git@github.com:hyun007/dotfiles.git $HOME/.cfg
 function config {
    /usr/bin/git --git-dir=$HOME/.cfg/ --work-tree=$HOME $@
 }
